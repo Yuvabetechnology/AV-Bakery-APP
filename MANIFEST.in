@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include av_bakery *.css
+recursive-include av_bakery *.csv
+recursive-include av_bakery *.html
+recursive-include av_bakery *.ico
+recursive-include av_bakery *.js
+recursive-include av_bakery *.json
+recursive-include av_bakery *.md
+recursive-include av_bakery *.png
+recursive-include av_bakery *.py
+recursive-include av_bakery *.svg
+recursive-include av_bakery *.txt
+recursive-exclude av_bakery *.pyc
